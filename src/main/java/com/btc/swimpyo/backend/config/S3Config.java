@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class S3Config {
+    
 
     /* @Value 어노테이션을 사용하여 application.properties에서 설정된 AWS 계정 정보와 지역을 가져옵니다. */
     @Value("${cloud.aws.credentials.access-key}")
